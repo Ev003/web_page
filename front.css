@@ -1,0 +1,292 @@
+header {
+    background-color: #white;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+h1 {
+    color: #39308d;
+    margin: 0;
+    justify-content: flex-start;
+    font-size: 40px;
+    text-decoration: underline;
+} 
+
+h1 span {
+    margin-right: 10px;
+}
+
+
+.details {
+    font-size: 14px; 
+    margin-top: 5px; 
+}
+
+.logo-container {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center; 
+    margin-top: 20px;
+}
+
+.logo {
+    width: 100px; 
+    height: auto;
+    margin: 0 10px; 
+}
+
+
+
+
+/*//navigation//*/
+
+.navigation {
+    background-color: #424894; 
+    color: #fff;
+    padding: 10px 0; 
+}
+
+.navigation ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+}
+
+.navigation ul li {
+    padding: 10px 20px;
+}
+
+.navigation ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navigation ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+.gallery {
+    background-color: #f9f9f9; 
+    padding:  0; 
+    text-align: center;
+    overflow-x: auto; 
+}
+
+.gallery h2 {
+    margin-bottom: 20px;
+}
+
+.gallery-images {
+    display: flex;
+}
+
+.gallery-images img {
+    margin: 0; 
+}
+
+
+
+
+.completion-strip {
+    background-color: #fe7a36;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;}
+
+
+.welcome-heading {
+    margin-top: 20px; 
+    text-align: center;
+    font-size: 30px; 
+    color: #424894;}
+
+
+.welcome-paragraph {
+    margin-right: 100px;
+    margin-left: 100px; 
+    font-size: 16px; 
+}
+
+
+
+
+.know-more-btn {
+    background-color:  #424894;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    display: block; 
+    margin: 0 auto; 
+}
+
+
+
+
+
+
+.quote-image-strip {
+    position: relative;
+    margin-top: 20px; 
+}
+
+.quote-image-strip img {
+    width: 100%; 
+    display: block;
+}
+
+
+.quote-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0.5, 0); 
+}
+
+.quote-text {
+    color: #424894;
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    max-width: 80%; 
+    padding: 20px; 
+    border-radius: 5px; 
+}
+
+
+
+.courses {
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+    margin-top: 20px; 
+}
+
+/* Styles for each course */
+.course {
+    flex: 0 0 calc(25% - 20px); 
+    margin-bottom: 20px; 
+    text-align: center;
+}
+
+.course img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 10px;
+}
+
+.course-name {
+    margin-top: 10px; 
+    color: #424894
+}
+
+
+.view-more-btn {
+    background-color:  black; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 2px;
+    
+    
+}
+
+
+
+.founder-section {
+    text-align: center;
+    margin-top: 20px;
+     padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the founder heading */
+.founder-heading {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Styles for the founder content */
+.founder-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styles for the founder image */
+.founder-image {
+    margin-right: 20px; 
+}
+
+.founder-image img {
+    width: 150px; 
+    height: auto; 
+    border-radius: 50%; 
+}
+
+/* Styles for the quote */
+.quote {
+    flex: 0 0 auto; /* Reset width to auto to allow the quote to shrink */
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Styles for the info section */
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    background-color: #302785; 
+    padding: 20px; 
+    color: #fff; 
+}
+/* Styles for each info item */
+.info-item {
+    flex: 0 0 calc(25% - 20px);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.info-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.click-text {
+    color: #fff; /* Change text color to white */
+}
